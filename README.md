@@ -45,10 +45,10 @@ domain (GitHub writes a `CNAME` file) and point the domain's DNS at GitHub as th
 
 ## The address
 
-The site is at https://andreisircuta.github.io/twogreenpigs/ (a project site, under `/twogreenpigs/`). If it moves (its
+The site is at https://two-green-pigs.github.io/website/ (a project site, under `/website/`, repository https://github.com/two-green-pigs/website). If it moves (its
 own domain, another repository), change these:
 
-- `<base href="/twogreenpigs/">` in `404.html` (GitHub Pages shows that page for a missing address at any depth);
+- `<base href="/website/">` in `404.html` (GitHub Pages shows that page for a missing address at any depth);
 - `og:url` and `og:image` in the two pages (social previews need full addresses).
 
 ## Changing things
