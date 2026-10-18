@@ -331,3 +331,19 @@ iframe { border: 0; display: block; }
 .nav .nav-cta:hover { background: var(--grass-deep); }
 .game .nav .nav-cta { background: linear-gradient(180deg, var(--gold) 0%, var(--gold-deep) 100%); color: #2a1a08; }
 .game .nav .nav-cta:hover { background: var(--gold); }
+
+/* the beta page's tips and the "stuck on step 1" help, with the annotated phone screenshot */
+.steps .tip, .help .tip { font-size: 0.92rem; background: rgba(255, 211, 90, 0.08); border-left: 3px solid var(--gold); padding: 8px 12px; border-radius: 0 8px 8px 0; margin: 10px 0 0; }
+.steps .tip { flex: none; }
+.game .tip a { color: var(--sand); }
+.help { display: grid; gap: 28px; align-items: center; }
+@media (min-width: 860px) { .help { grid-template-columns: 300px 1fr; gap: 56px; } }
+.help-shot { margin: 0 auto; max-width: 300px; width: 100%; }
+.help-shot .shot { position: relative; border-radius: 18px; overflow: hidden; border: 6px solid #2f241a; box-shadow: 0 14px 40px rgba(0, 0, 0, 0.45); background: #fff; }
+.help-shot img { width: 100%; }
+.help-shot .ring { position: absolute; left: 73.5%; top: 0.6%; width: 24.5%; height: 11.5%; border: 4px solid #ff4d3d; border-radius: 999px; box-shadow: 0 0 0 4px rgba(255, 77, 61, 0.25); }
+.help-shot .ring-label { position: absolute; right: 3%; top: 13.5%; background: #ff4d3d; color: #fff; font-weight: 700; font-size: 0.85rem; padding: 3px 10px; border-radius: 999px; }
+.help-shot figcaption { font-size: 0.85rem; color: var(--text-soft); text-align: center; margin-top: 10px; }
+.howto { margin: 16px 0 6px; padding-left: 1.3em; color: var(--text-soft); }
+.howto li { margin-bottom: 6px; }
+.howto strong { color: var(--text); }
